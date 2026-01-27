@@ -1,6 +1,23 @@
-# Kerstmusical DMX
+# DMX Controller
 
-DMX controller board based on ESP32 NodeMCU.
+DMX controller board based on ESP32 NodeMCU. Implementing both plain DMX and RDM while being able to read the entire DMX frame.
+
+## Why?
+
+We have an Theathre stage at school, we do a musical around christmas every year. We wanted to engineer boxes with LED Strips, alarms, etc. 
+These things needed to respond with the lighting we already use, so DMX was chosen. Thus I started working on the controllers to control non traditional lights on the stage.
+
+## How?
+
+Now to use the project it's actually pretty simple, you plug in atleast one XLR cable for DMX in the ports, next you wire something up or just use the ESP32 to control DMX.
+The possibilities are endless, we engineered it in a way that using a Mesh you can connect more things through one Controller. 
+
+You need the PCB itself, female headers for the ESP32 and the ESP32 itself. Wire up what you need through the GPIO pins.
+
+## Wiring diagram
+
+<img width="816" height="384" alt="image" src="https://github.com/user-attachments/assets/7170fe50-24ae-4aec-93e1-ca6e9b0ae60a" />
+
 
 ## Bill of Materials
 
@@ -23,4 +40,12 @@ DMX controller board based on ESP32 NodeMCU.
 | XL1509-5.0E1 5V Buck Converter (U4) | 1 | $0.1109 | $0.11 | [C61063](https://www.lcsc.com/product-detail/C61063.html) |
 | **Total** | | | **$1.17** | |
 
-*Note: Price excludes U3 (ESP32 NodeMCU) which needs to be sourced separately. The 680Ω resistor uses C17798 (the original BOM listed C17437 which is actually 120Ω).*
+*Note: Price excludes U3 (ESP32 NodeMCU) which needs to be sourced separately.*
+
+## Screenshots
+
+<img width="1951" height="1079" alt="image" src="https://github.com/user-attachments/assets/b27fc8e1-0f80-4001-aeed-f01746ab187f" />
+<img width="1282" height="723" alt="image" src="https://github.com/user-attachments/assets/75dfb286-4917-4b91-8233-861de1727720" />
+
+
+

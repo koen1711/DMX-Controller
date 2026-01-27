@@ -2,10 +2,17 @@
 
 DMX controller board based on ESP32 NodeMCU. Implementing both plain DMX and RDM while being able to read the entire DMX frame.
 
-##
+## Why?
 
 We have an Theathre stage at school, we do a musical around christmas every year. We wanted to engineer boxes with LED Strips, alarms, etc. 
 These things needed to respond with the lighting we already use, so DMX was chosen. Thus I started working on the controllers to control non traditional lights on the stage.
+
+## How?
+
+Now to use the project it's actually pretty simple, you plug in atleast one XLR cable for DMX in the ports, next you wire something up or just use the ESP32 to control DMX.
+The possibilities are endless, we engineered it in a way that using a Mesh you can connect more things through one Controller. 
+
+You need the PCB itself, female headers for the ESP32 and the ESP32 itself. Wire up what you need through the GPIO pins.
 
 ## 
 

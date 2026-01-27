@@ -7399,7 +7399,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "MAX485"
+		(property "MP" "MAX3430ESA"
 			(at 138.938 27.178 0)
 			(effects
 				(font

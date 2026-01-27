@@ -588,15 +588,15 @@
 			(uuid "76aece5b-905c-4952-bf93-9ef6e4923942")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC3FAAH-0_Horizontal.step"
+		(model "${KIPRJMOD}/lib/CONN-TH_XLR-328P.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1 -3.5 13)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -3253,15 +3253,15 @@
 			(uuid "eff7d46c-cf15-4c46-903c-13f784d3762d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-TH_MSS22D18GX.wrl"
+		(model "${KIPRJMOD}/lib/SW-TH_MSS22D18GX.step"
 			(offset
-				(xyz 0 -0.05 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 180)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -4391,6 +4391,17 @@
 			(uuid "07618544-27a2-4c50-adac-13e4b745689b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/ESP32_NODEMCU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_Audio:Jack_XLR_Neutrik_NC3MAAH_Horizontal"
 		(layer "F.Cu")
@@ -4399,7 +4410,7 @@
 		(descr "AA Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, horizontal PCB mount, https://www.neutrik.com/en/product/nc3maah")
 		(tags "neutrik xlr aa")
 		(property "Reference" "J1"
-			(at 3.81 -3 270)
+			(at 3.81 -3 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9c1e3569-01dd-4957-9591-d0bd800500b7")
@@ -4411,7 +4422,7 @@
 			)
 		)
 		(property "Value" "DMX_IN"
-			(at 3.81 22 270)
+			(at 3.81 22 90)
 			(layer "F.Fab")
 			(uuid "172c2a63-3733-4032-ba49-992c8781933a")
 			(effects
@@ -4836,7 +4847,7 @@
 			(uuid "638e9e0e-9cf8-49e0-a809-b0f27a97657e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 15.43 270)
+			(at 3.81 15.43 90)
 			(layer "F.Fab")
 			(uuid "8fa45303-2198-471a-a174-6910d71d31c6")
 			(effects
@@ -4901,15 +4912,15 @@
 			(uuid "59ba6501-f0bf-4008-9e52-a0033ffa24b5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC3MAAH_Horizontal.step"
+		(model "${KIPRJMOD}/lib/CONN-TH_DIN-327.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3.5 -17 12.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -6630,7 +6641,7 @@
 			(effects
 				(font
 					(size 0.320128 0.320128)
-					(thickness 0.15)
+					(thickness 0.080032)
 				)
 			)
 		)
@@ -6641,7 +6652,7 @@
 			(effects
 				(font
 					(size 0.320265 0.320265)
-					(thickness 0.15)
+					(thickness 0.040033)
 				)
 			)
 		)
@@ -6799,7 +6810,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "c5650cff-9bb4-47dd-85b6-70589afdb8b5")
+			(uuid "64ea659d-327c-452c-aa51-f55bd435d557")
 		)
 		(fp_line
 			(start 2.362 -1.803)
@@ -6809,7 +6820,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c9982313-e48a-4343-8dfd-78ff500659de")
+			(uuid "b0b87a59-d5b2-4587-9928-4a729d18e35a")
 		)
 		(fp_line
 			(start -2.362 1.803)
@@ -6819,7 +6830,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2a5b27ba-6711-4955-861a-53ddf2ceeee6")
+			(uuid "5c00aa83-c349-494a-aa1a-6ea75297862f")
 		)
 		(fp_poly
 			(pts
@@ -6831,7 +6842,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "4191598d-8cb1-4628-8a3b-e9e95a253804")
+			(uuid "ba1c5a99-fdf6-40c5-bf94-1af01dd7cde9")
 		)
 		(fp_poly
 			(pts
@@ -6843,7 +6854,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "d88a5625-583f-4839-bb79-614240bf7ede")
+			(uuid "7c06a375-a282-4908-8f95-9d17c0dc3727")
 		)
 		(fp_poly
 			(pts
@@ -6855,7 +6866,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "0d07e157-73c0-46df-9428-ff0c84e7bfb0")
+			(uuid "cb358119-560d-4a14-ac8d-76a79ba81054")
 		)
 		(fp_poly
 			(pts
@@ -6867,7 +6878,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "8e48fc39-0cd2-48de-88c0-c3b23eafa2b9")
+			(uuid "fc67c3a2-2fdc-473f-b68a-df6fcc02349d")
 		)
 		(fp_poly
 			(pts
@@ -6879,7 +6890,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "7f4af24d-5315-4e13-bbde-d2ca8766d1e8")
+			(uuid "7da17d98-bd07-4486-bc4e-394db885a3b4")
 		)
 		(fp_poly
 			(pts
@@ -6891,7 +6902,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "6ba4fb98-81b8-4436-800d-9acda3d21463")
+			(uuid "e1ba0cd0-20ef-4a04-9ec7-bd1dec2018d2")
 		)
 		(fp_poly
 			(pts
@@ -6903,7 +6914,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "a42e7e2d-2610-4b1f-8f41-1a3d86fac5c9")
+			(uuid "59251119-ff48-4430-9ec6-a8f1be884149")
 		)
 		(fp_poly
 			(pts
@@ -6915,7 +6926,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "3d570744-82c8-4a0e-852d-01f8cde326c8")
+			(uuid "4b3313ea-df57-4523-ba16-a6678e7abaf7")
 		)
 		(pad "1" smd rect
 			(at -1.905 2.6162 90)
@@ -6998,6 +7009,17 @@
 			(uuid "d06c9bb5-b493-4a9e-b313-c45e8c39185f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/SOP-8_L5.0-W4.0-H1.8-LS6.2-P1.27.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -7568,9 +7590,9 @@
 			(uuid "d5b04a16-b824-4ea6-80f0-8a3b645b9200")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
+		(model "${KIPRJMOD}/lib/SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL.step"
 			(offset
-				(xyz 1.65 -2.84 -0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)

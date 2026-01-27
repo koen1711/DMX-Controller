@@ -14,7 +14,10 @@ The possibilities are endless, we engineered it in a way that using a Mesh you c
 
 You need the PCB itself, female headers for the ESP32 and the ESP32 itself. Wire up what you need through the GPIO pins.
 
-## 
+## Wiring diagram
+
+<img width="816" height="384" alt="image" src="https://github.com/user-attachments/assets/7170fe50-24ae-4aec-93e1-ca6e9b0ae60a" />
+
 
 ## Bill of Materials
 
@@ -37,4 +40,12 @@ You need the PCB itself, female headers for the ESP32 and the ESP32 itself. Wire
 | XL1509-5.0E1 5V Buck Converter (U4) | 1 | $0.1109 | $0.11 | [C61063](https://www.lcsc.com/product-detail/C61063.html) |
 | **Total** | | | **$1.17** | |
 
-*Note: Price excludes U3 (ESP32 NodeMCU) which needs to be sourced separately.
+*Note: Price excludes U3 (ESP32 NodeMCU) which needs to be sourced separately.*
+
+## Screenshots
+
+<img width="1951" height="1079" alt="image" src="https://github.com/user-attachments/assets/b27fc8e1-0f80-4001-aeed-f01746ab187f" />
+<img width="1282" height="723" alt="image" src="https://github.com/user-attachments/assets/75dfb286-4917-4b91-8233-861de1727720" />
+
+
+
